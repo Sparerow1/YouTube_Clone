@@ -1,0 +1,43 @@
+{
+  "name": "yt-web-client",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@google-cloud/storage": "^7.11.2",
+    "@types/node": "20.12.13",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "axios": "^1.7.2",
+    "child_process": "^1.0.2",
+    "eslint": "^8",
+    "firebase": "^10.12.2",
+    "fs": "^0.0.1-security",
+    "net": "^1.0.2",
+    "next": "^14.2.5",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-script": "^2.0.5",
+    "reactjs-popup": "^2.0.6",
+    "typescript": "^5"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "^14.2.5",
+    "fs": "^0.0.1-security",
+    "typescript": "^5"
+  },
+  "browser": {
+    "fs": false,
+    "path": false,
+    "os": false
+  }
+}
